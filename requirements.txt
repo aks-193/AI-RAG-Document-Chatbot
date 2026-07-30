@@ -1,0 +1,10 @@
+streamlit
+openai
+python-dotenv
+pypdf
+python-docx
+pandas
+openpyxl
+sentence-transformers
+faiss-cpu
+langchain-text-splitters
