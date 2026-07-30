@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="📄",
 )
 
-st.title("📄 AI Document Chatbot")
+st.title("📄 AI RAG based Document Chatbot")
 
 # -----------------------
 # Session State
@@ -105,11 +105,11 @@ if st.session_state.rag:
 
             st.markdown(answer)
 
-            with st.expander("Retrieved Context"):
+            # with st.expander("Retrieved Context"):
 
-                for i, item in enumerate(sources, start=1):
+            #     for i, item in enumerate(sources, start=1):
 
-                    st.markdown(f"### Chunk {i}")
-                    st.write(item["chunk"])
-                    st.caption(f"Distance: {item['distance']:.4f}")
-                    st.divider()
+            #         st.markdown(f"### Chunk {i}")
+            #         st.write(item["chunk"])
+            #         st.caption(f"Distance: {item['distance']:.4f}")
+            #         st.divider()
